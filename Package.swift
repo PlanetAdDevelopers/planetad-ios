@@ -14,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios", .upToNextMajor(from: "3.23.0"))
+        .package(url: "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios", exact: "3.23.0")
     ],
     targets: [
         .target(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PlanetAdSDK",
-            url: "https://storage.googleapis.com/planetad/ios_spm/v1.15.1/PlanetAdSDK.zip",
-            checksum: "bac76a238e348f22e691cdc46a95c3e636cb270fdbaff55f640fdeb08099cd4c"
+            url: "https://storage.googleapis.com/planetad/ios_spm/v1.15.2/PlanetAdSDK.zip",
+            checksum: "7496879e84ee584ac15748da5d983951fa8dbbe0cf6aeaef891d2616e86734e1"
         )
     ]
 )
