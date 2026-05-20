@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PlanetAdSDK",
-            url: "https://storage.googleapis.com/planetad/ios_spm/v1.15.4/PlanetAdSDK.zip",
-            checksum: "ce668156d32c42d52b466819dbe75b9edf12e6ab61e7ce803cf2dc5b52b19c66"
+            url: "https://storage.googleapis.com/planetad/ios_spm/v1.15.5/PlanetAdSDK.zip",
+            checksum: "ea07738c9f42fea471d1d34687394c9b5a0340586067fc76a7f709bda4dce77b"
         )
     ]
 )
